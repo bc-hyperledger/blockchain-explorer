@@ -79,9 +79,9 @@ This guide assumes that you've already started the test network by following [Hy
 
 
   ```bash
-  wget https://raw.githubusercontent.com/hyperledger/blockchain-explorer/main/examples/net1/config.json
-  wget https://raw.githubusercontent.com/hyperledger/blockchain-explorer/main/examples/net1/connection-profile/test-network.json -P connection-profile
-  wget https://raw.githubusercontent.com/hyperledger/blockchain-explorer/main/docker-compose.yaml
+  wget https://github.com/bc-hyperledger/blockchain-explorer/blob/main/examples/net1/config.json
+  wget https://github.com/bc-hyperledger/blockchain-explorer/blob/main/examples/net1/connection-profile/test-network.json -P connection-profile
+  wget https://github.com/bc-hyperledger/blockchain-explorer/blob/main/docker-compose.yaml
   ```
 
 * Copy entire crypto artifact directory (organizations/) from your fabric network (e.g /fabric-samples/test-network)
